@@ -19,6 +19,26 @@ Clone this repository, then
 
 `$ pip install -r requirements`
 
+## Configure
+
+A sample configuration file might look like: 
+
+- env.yml
+```
+bittrex_api_key: XXXXXXXXXXX
+bittrex_api_secret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+coinbase_api_key: XXXXXXXXXXXXXXXXX
+coinbase_api_secret: XXXXXXXXXXXXXXXXXXXXXXX
+
+binance_api_key: XXXXXXXXXXXXXXXXXXXXXXXXX
+binance_api_secret: XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+gdax_passphrase: XXXX
+gdax_api_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+gdax_api_secret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
 ## Run
 `$ python run.py`
 
