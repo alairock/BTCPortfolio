@@ -6,18 +6,21 @@ This project serves as a simple example of connecting to those exchanges and rea
 
 BTCPortfolio uses an interface to denormalize the various API's and SDK's you have to interact with across exchanges/currencies. These are not at all fleshed out, but someday that would might be something this could become. 
 
+## Requirements
+Python 3.5 (Newer versions of Python will probably work as well)
+
 ## Install
 
 Clone this repository, then 
 
-`$ pip3 -m venv venv`
+`$ python3 -m venv venv`
 
 `$ ./venv/bin/activate`
 
 `$ pip install -r requirements`
 
 ## Run
-` python run.py`
+`$ python run.py`
 
 To watch the market, I have a watch file for watching gdax realtime BTC exchange prices. 
-`python watch.py`
+`$ python watch.py`
