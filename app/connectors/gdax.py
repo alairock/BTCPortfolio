@@ -20,5 +20,5 @@ class Gdax(ExchangeInterface):
                 coin.update({'name': account['currency']})
                 coin.update({'type': account['currency']})
                 coin.update({'amount':
-                                 format(float(account['balance']), '.8f')})
+                            format(float(account['balance']), '.8f')})
                 yield coin
